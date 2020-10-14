@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: d31eba712c8eb1a4f9145ab5d4dd8df8
+timeCreated: 1447164883
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - ObjCollided: {instanceID: 0}
+  - V_A: {instanceID: 0}
+  - bump: {fileID: 149368, guid: 53638620cc58c7045bd3aedb56b19e82, type: 2}
+  - pick: {fileID: 156994, guid: dddd7d1e63a90fb45b982c4a3267f395, type: 2}
+  - checkpoint: {fileID: 121490, guid: a11a78e99e1fbec48bbb242be90e6ca0, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

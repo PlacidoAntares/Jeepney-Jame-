@@ -1,0 +1,17 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Code\Player\CollisionDetect.cs">
+    <Files>
+      <File FileName="Assets\Code\Player\CollisionDetect.cs" Line="74" Column="6" />
+      <File FileName="Assets\Code\Player\shieldBar.cs" Line="1" Column="1" />
+      <File FileName="Assets\PassengerSpawnStuff\PassengerSpawning.cs" Line="1" Column="1" />
+      <File FileName="Assets\Code\Player\Pass_Glue.cs" Line="1" Column="1" />
+      <File FileName="Assets\Code\Player\JeepLaneMovement.cs" Line="1" Column="1" />
+      <File FileName="Assets\Code\Player\FillUp_Jeep.cs" Line="49" Column="5" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
