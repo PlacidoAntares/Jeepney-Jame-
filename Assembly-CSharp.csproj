@@ -54,6 +54,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Assets\LegacyAssets\PassengerSpawnStuff\PassengerSpawning.cs" />
+    <Compile Include="Assets\Scripts\SetPieceData.cs" />
     <Compile Include="Assets\LegacyAssets\UI\MainMenu\startMenu.cs" />
     <Compile Include="Assets\LegacyAssets\Code\Player\FillUp_Jeep.cs" />
     <Compile Include="Assets\LegacyAssets\Code\Player\ScoreManager.cs" />
@@ -77,12 +78,12 @@
     <Compile Include="Assets\LegacyAssets\Code\Enviroment\VehicleLaneSpawner.cs" />
     <Compile Include="Assets\LegacyAssets\PassengerSpawnStuff\PassengerMovement.cs" />
     <Compile Include="Assets\LegacyAssets\Code\Enviroment\ObstacleSpawning.cs" />
+    <Compile Include="Assets\Scripts\StageManagement.cs" />
     <Compile Include="Assets\LegacyAssets\Code\Player\PowerUps.cs" />
     <Compile Include="Assets\LegacyAssets\Code\Player\CollisionDetect.cs" />
     <Compile Include="Assets\LegacyAssets\Code\Obstacles\VehicleMovement.cs" />
     <Compile Include="Assets\LegacyAssets\Code\Player\SwipeDetector.cs" />
-    <Compile Include="Assets\Scripts\StageManagement.cs" />
-    <Compile Include="Assets\Scripts\SetPieceData.cs" />
+    <Compile Include="Assets\Scripts\PlayerControl.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
