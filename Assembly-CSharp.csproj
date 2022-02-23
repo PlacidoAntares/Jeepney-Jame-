@@ -54,6 +54,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Assets\LegacyAssets\PassengerSpawnStuff\PassengerSpawning.cs" />
+    <Compile Include="Assets\Scripts\PlayerControl.cs" />
     <Compile Include="Assets\Scripts\SetPieceData.cs" />
     <Compile Include="Assets\LegacyAssets\UI\MainMenu\startMenu.cs" />
     <Compile Include="Assets\LegacyAssets\Code\Player\FillUp_Jeep.cs" />
@@ -65,8 +66,10 @@
     <Compile Include="Assets\LegacyAssets\UI\MainMenu\toLoad.cs" />
     <Compile Include="Assets\LegacyAssets\Code\Player\JeepLaneMovement.cs" />
     <Compile Include="Assets\LegacyAssets\Code\Enviroment\Stage_Spawn_01.cs" />
+    <Compile Include="Assets\Scripts\ObstacleManager.cs" />
     <Compile Include="Assets\LegacyAssets\Code\Player\cameraFollow.cs" />
     <Compile Include="Assets\LegacyAssets\UI\MainMenu\loadScene.cs" />
+    <Compile Include="Assets\Scripts\ObstacleData.cs" />
     <Compile Include="Assets\LegacyAssets\UI\MainMenu\mainMenu.cs" />
     <Compile Include="Assets\LegacyAssets\Code\Player\shieldBar.cs" />
     <Compile Include="Assets\LegacyAssets\Code\Obstacles\Only_Two.cs" />
@@ -83,7 +86,8 @@
     <Compile Include="Assets\LegacyAssets\Code\Player\CollisionDetect.cs" />
     <Compile Include="Assets\LegacyAssets\Code\Obstacles\VehicleMovement.cs" />
     <Compile Include="Assets\LegacyAssets\Code\Player\SwipeDetector.cs" />
-    <Compile Include="Assets\Scripts\PlayerControl.cs" />
+    <Compile Include="Assets\Scripts\PickUpManager.cs" />
+    <Compile Include="Assets\Scripts\passengerData.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

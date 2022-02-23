@@ -25,7 +25,14 @@ public class PlayerControl : MonoBehaviour
 
     void PlayerControls()
     {
-
+        if (Input.GetKeyDown(KeyCode.A) && playerLocId > -1)
+        {
+            playerLocId--;
+        }
+        else if (Input.GetKeyDown(KeyCode.D) && playerLocId < playerPositions.Length)
+        {
+            playerLocId++;
+        }
     }
     void SwapLanes()
     {
@@ -57,8 +64,4 @@ public class PlayerControl : MonoBehaviour
         }
     }
 
-    void rotateJeep()
-    {
-
-    }
 }
