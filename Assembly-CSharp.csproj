@@ -79,6 +79,7 @@
     <Compile Include="Assets\LegacyAssets\Code\Enviroment\VehicleSpawning.cs" />
     <Compile Include="Assets\LegacyAssets\Code\Enviroment\StageMovement.cs" />
     <Compile Include="Assets\LegacyAssets\Code\Enviroment\VehicleLaneSpawner.cs" />
+    <Compile Include="Assets\Scripts\PickUpManager.cs" />
     <Compile Include="Assets\LegacyAssets\PassengerSpawnStuff\PassengerMovement.cs" />
     <Compile Include="Assets\LegacyAssets\Code\Enviroment\ObstacleSpawning.cs" />
     <Compile Include="Assets\Scripts\StageManagement.cs" />
@@ -86,8 +87,7 @@
     <Compile Include="Assets\LegacyAssets\Code\Player\CollisionDetect.cs" />
     <Compile Include="Assets\LegacyAssets\Code\Obstacles\VehicleMovement.cs" />
     <Compile Include="Assets\LegacyAssets\Code\Player\SwipeDetector.cs" />
-    <Compile Include="Assets\Scripts\PickUpManager.cs" />
-    <Compile Include="Assets\Scripts\passengerData.cs" />
+    <Compile Include="Assets\Scripts\PickUpsData.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

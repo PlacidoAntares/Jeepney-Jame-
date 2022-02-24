@@ -18,9 +18,9 @@ public class ObstacleData : MonoBehaviour
     void DestroyThisObj()
     {
         OM.removeObstacles.Add(this.gameObject);
-        foreach (GameObject setPiece in OM.removeObstacles)
+        foreach (GameObject obstacle in OM.removeObstacles)
         {
-            OM.spawnedObstacles.Remove(setPiece);
+            OM.spawnedObstacles.Remove(obstacle);
             Destroy(this.gameObject);
         }
     }
@@ -28,10 +28,9 @@ public class ObstacleData : MonoBehaviour
     private void OnCollisionEnter(Collision collision)
     {
         OM.removeObstacles.Add(this.gameObject);
-        foreach (GameObject setPiece in OM.removeObstacles)
+        foreach (GameObject obstacle in OM.removeObstacles)
         {
-            OM.spawnedObstacles.Remove(setPiece);
-    
+            OM.spawnedObstacles.Remove(obstacle);   
             Destroy(this.gameObject,1.5f);
         }
     }

@@ -8,7 +8,7 @@ public class StageManagement : MonoBehaviour
     public int setPiecesMaxAmt;
     private int setPiecesAmt;
     private GameObject tempHolder;
-    private int setPieceID;
+    [HideInInspector]public int setPieceID;
     public float moveSpeed;
     public float setPieceTimer;
     public float setPieceSpawnRate;
