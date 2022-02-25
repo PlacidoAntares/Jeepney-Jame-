@@ -1,11 +1,12 @@
 using System.Collections;
-using System.Collections.Generic;
+ using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayerControl : MonoBehaviour
 {
     public Vector3[] playerPositions;
     public Vector3[] playerLookVectors;
+    [HideInInspector] ScoreHolder SH;
     public int playerLocId;
     public GameObject player;
     public Transform playerLook;
@@ -13,7 +14,7 @@ public class PlayerControl : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        SH = GameObject.Find("ScoreManager").GetComponent<ScoreHolder>();
     }
 
     // Update is called once per frame
@@ -34,6 +35,8 @@ public class PlayerControl : MonoBehaviour
             playerLocId++;
         }
     }
+
+    
     void SwapLanes()
     {
         player.transform.LookAt(playerLook);

@@ -15,6 +15,9 @@ public class PickUpManager : MonoBehaviour
     private int passCount;
     private GameObject tempHolder;
     private int passengerChance;
+    public int[] powerUpChance;
+    private int powerUpRoll;
+    private int spawnID;
     public List<GameObject> pickUpList = new List<GameObject>();
     [HideInInspector]public List<GameObject> removePickUpList = new List<GameObject>();
     [HideInInspector] public PickUpsData PD;
@@ -23,6 +26,7 @@ public class PickUpManager : MonoBehaviour
     void Start()
     {
         InvokeRepeating("SpawnPassengers",0,spawnRate);
+        InvokeRepeating("SpawnItems", 0, spawnRate);
     }
 
     // Update is called once per frame
@@ -57,5 +61,20 @@ public class PickUpManager : MonoBehaviour
         
     }
 
+    void SpawnItems()
+    {
+        for (int i = 0; i < powerUpChance.Length; i++)
+        {
+            powerUpRoll = Random.Range(0, 100);
+            if (powerUpRoll <= powerUpChance[i])
+            {
+                spawnID = Random.Range(0,spawnPoints.Length - 1);
+                tempHolder = Instantiate(pickUpPrefabs[i], spawnPoints[spawnID], Quaternion.identity);
+                pickUpList.Add(tempHolder);
+                PD = tempHolder.GetComponent <PickUpsData>();
+                PD.expireTimer = objDur;
+            }
+        }
+    }
     
 }

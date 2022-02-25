@@ -70,6 +70,7 @@
     <Compile Include="Assets\LegacyAssets\Code\Player\cameraFollow.cs" />
     <Compile Include="Assets\LegacyAssets\UI\MainMenu\loadScene.cs" />
     <Compile Include="Assets\Scripts\ObstacleData.cs" />
+    <Compile Include="Assets\Scripts\PickUpsData.cs" />
     <Compile Include="Assets\LegacyAssets\UI\MainMenu\mainMenu.cs" />
     <Compile Include="Assets\LegacyAssets\Code\Player\shieldBar.cs" />
     <Compile Include="Assets\LegacyAssets\Code\Obstacles\Only_Two.cs" />
@@ -87,7 +88,8 @@
     <Compile Include="Assets\LegacyAssets\Code\Player\CollisionDetect.cs" />
     <Compile Include="Assets\LegacyAssets\Code\Obstacles\VehicleMovement.cs" />
     <Compile Include="Assets\LegacyAssets\Code\Player\SwipeDetector.cs" />
-    <Compile Include="Assets\Scripts\PickUpsData.cs" />
+    <Compile Include="Assets\Scripts\ScoreHolder.cs" />
+    <Compile Include="Assets\Scripts\WaitingShed.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
